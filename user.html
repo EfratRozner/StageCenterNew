@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <link rel="stylesheet" href="./bootstrap-4.5.0-dist/css/bootstrap.css" />
+        <link rel="stylesheet" href="center.css">
+        <title></title>
+    </head>
+   <body id="n">
+        <div id="container" dir="rtl">
+                <img src="img/logo1.png" width="300" dir="rtl" >
+                <button class="button">
+                    הכנס
+                </button>
+                <input type="text" id="search" class="search" placeholder="אני מחפש/ת">
+                <ul class="nav" dir="rtl">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="center.html">עמוד הבית</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">אודות</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">מי אנחנו?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="vidoe.html">כל המוצרים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">מחפש</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">מפרסם</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">חבילות פרסום</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forum.html">הרשמה</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">מבצעים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">טפסים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">צור קשר</a>
+                    </li>
+                    <li class="nav-item">
+                        <hr>
+                            <a class="nav-link" href="#">החשבון שלי</a>
+                    </li>
+                  </ul>
+                  <br>
+                  <span id="erorr" dir="ltr" class="hidden">אחד הפרטים שהוכנסו שגוי או שהמשתמש אני קיים במערכת</span>
+
+        
+           </div>
+        <form class="conect hidden" dir="rtl">
+            <label for="name">שם משתמש:</label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="password">סיסמא:</label><br>
+            <input type="password" name="password" id="password"><br>
+            <button type="submit" name="in" class="open">כניסה</button>
+           
+       </form>
+    
+       <span id="cant" dir="ltr" class="hidden red">היכנס עם שם וסיסמא</span>
+         <h1 class="titles" >הפרטים שלך</h1>
+        
+         <div>
+         <form id="form" action="center.html">
+            <label for="fName">שם פרטי</label>
+            <br>
+            <input name="firstName" id="fName" type="text" minlength="2" required="required">
+            <br>
+            <label for="lName"> שם משפחה</label>
+            <br>
+            <input name="lName"  name="lastName" type="text">
+            <br>
+            <label for="mail">דואר אלקטרוני</label>
+            <br>
+            <input name="mail" placeholder="אין כתובת מייל" name="em" type="email">
+            <br>
+            <label for="pasword">סיסמה</label>
+            <br>
+            <input name="pasword"  type="password" required="required">
+            <br>
+            
+            
+            
+         </form>
+        </div>
+
+    </body>
+    <script src="search.js"></script>
+    <script src="user.js"></script>
+    </html>
